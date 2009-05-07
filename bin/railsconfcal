@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+$:.unshift File.join(File.dirname(__FILE__), '..', 'lib')
+require 'railsconfcal'
+
+cal = RailsConfCal.new
+names = cal.events.map {|event| event.summary}
+
+names.each do |name|
+  puts name
+end

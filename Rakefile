@@ -9,7 +9,7 @@ begin
     gem.email = "josh@technicalpickles.com"
     gem.homepage = "http://github.com/technicalpickles/railsconfcal"
     gem.authors = ["Josh Nichols"]
-    gem.rubyforge_project = "railsconfcal"
+    gem.rubyforge_project = "pickles"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 
